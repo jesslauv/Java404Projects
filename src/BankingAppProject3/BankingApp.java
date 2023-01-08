@@ -7,6 +7,7 @@ public class BankingApp {
 
         Scanner scanner = new Scanner(System.in);
         Checking check = new Checking();
+
         while(true) {
             System.out.println("What would you like to do today? \n Withdraw money (Type w)" +
                     "\n Deposit money (Type d)" +
