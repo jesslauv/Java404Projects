@@ -21,7 +21,7 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener {
     public int ticks, yMotion, score;
 
 
-    //constructor
+    //constructor method
     public FlappyBird(){
         JFrame jf = new JFrame();
         Timer timer = new Timer(40,this);
